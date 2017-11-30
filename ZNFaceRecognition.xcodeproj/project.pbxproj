@@ -15,6 +15,7 @@
 		B8DF3F341FCFD33D004D66B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF3F331FCFD33D004D66B7 /* main.m */; };
 		B8DF3F3E1FCFD33D004D66B7 /* ZNFaceRecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF3F3D1FCFD33D004D66B7 /* ZNFaceRecognitionTests.m */; };
 		B8DF3F491FCFD33D004D66B7 /* ZNFaceRecognitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF3F481FCFD33D004D66B7 /* ZNFaceRecognitionUITests.m */; };
+		B8DF3F581FCFD8DD004D66B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DF3F571FCFD8DD004D66B7 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B8DF3F441FCFD33D004D66B7 /* ZNFaceRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZNFaceRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DF3F481FCFD33D004D66B7 /* ZNFaceRecognitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNFaceRecognitionUITests.m; sourceTree = "<group>"; };
 		B8DF3F4A1FCFD33D004D66B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DF3F571FCFD8DD004D66B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DF3F581FCFD8DD004D66B7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				B8DF3F3C1FCFD33D004D66B7 /* ZNFaceRecognitionTests */,
 				B8DF3F471FCFD33D004D66B7 /* ZNFaceRecognitionUITests */,
 				B8DF3F221FCFD33D004D66B7 /* Products */,
+				B8DF3F561FCFD8DD004D66B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +134,14 @@
 				B8DF3F4A1FCFD33D004D66B7 /* Info.plist */,
 			);
 			path = ZNFaceRecognitionUITests;
+			sourceTree = "<group>";
+		};
+		B8DF3F561FCFD8DD004D66B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8DF3F571FCFD8DD004D66B7 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,7 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TNR5YMG44;
 				INFOPLIST_FILE = ZNFaceRecognition/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yjzhdzj.ZNFaceRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,7 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TNR5YMG44;
 				INFOPLIST_FILE = ZNFaceRecognition/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yjzhdzj.ZNFaceRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
