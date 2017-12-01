@@ -24,6 +24,10 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>若不允许，您将无法使用扫码、拍照等服务</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>若不允许，您将无法使用图片上传、保存等服务</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>若不允许，您将无法使用图片上传、保存等服务</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

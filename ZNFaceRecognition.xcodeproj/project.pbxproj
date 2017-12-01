@@ -16,6 +16,8 @@
 		B8DF3F3E1FCFD33D004D66B7 /* ZNFaceRecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF3F3D1FCFD33D004D66B7 /* ZNFaceRecognitionTests.m */; };
 		B8DF3F491FCFD33D004D66B7 /* ZNFaceRecognitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF3F481FCFD33D004D66B7 /* ZNFaceRecognitionUITests.m */; };
 		B8DF3F581FCFD8DD004D66B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DF3F571FCFD8DD004D66B7 /* AVFoundation.framework */; };
+		B8DF3F891FD13E88004D66B7 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DF3F881FD13E88004D66B7 /* Photos.framework */; };
+		B8DF3F8B1FD14FE8004D66B7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DF3F8A1FD14FE8004D66B7 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		B8DF3F481FCFD33D004D66B7 /* ZNFaceRecognitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNFaceRecognitionUITests.m; sourceTree = "<group>"; };
 		B8DF3F4A1FCFD33D004D66B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8DF3F571FCFD8DD004D66B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B8DF3F861FD13E3A004D66B7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B8DF3F881FD13E88004D66B7 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		B8DF3F8A1FD14FE8004D66B7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DF3F8B1FD14FE8004D66B7 /* libz.tbd in Frameworks */,
+				B8DF3F891FD13E88004D66B7 /* Photos.framework in Frameworks */,
 				B8DF3F581FCFD8DD004D66B7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,9 @@
 		B8DF3F561FCFD8DD004D66B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8DF3F8A1FD14FE8004D66B7 /* libz.tbd */,
+				B8DF3F881FD13E88004D66B7 /* Photos.framework */,
+				B8DF3F861FD13E3A004D66B7 /* AssetsLibrary.framework */,
 				B8DF3F571FCFD8DD004D66B7 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
